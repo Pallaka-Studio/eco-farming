@@ -1,11 +1,15 @@
 import * as React from 'react'
 import { NextPage } from 'next'
 import { Box } from '@chakra-ui/react'
-import Navbar from '~/components/Navbar'
+import SectionFirst from '~/components/SectionFirst'
+import Profil from '~/components/Profil'
+import Video from '~/components/Video'
 
 const IndexPage: NextPage = () => (
   <Box>
-    <Navbar />
+    <SectionFirst />
+    <Profil />
+    <Video />
   </Box>
 )
 
